@@ -1,0 +1,11 @@
+agentName:  agent002
+namespace:  agent002
+imageRepo: 229560443702.dkr.ecr.us-west-2.amazonaws.com/agent002
+giteaBaseUrl: :443/gitea/giteaAdmin
+
+imageBase: :443/gitea/giteaadmin
+
+envs:
+  - name: dev
+    depends: None
+    cluster: cnoe-ref-impl
